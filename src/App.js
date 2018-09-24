@@ -24,7 +24,7 @@ class DeckSelector extends React.Component {
             <li
               style={
                 i === this.props.selectedDeck
-                  ? { fontWeight: 800, color: '#b9d0ca' }
+                  ? { fontWeight: 800, color: '#b9d0ca', transform: 'scale(1.1)' }
                   : null
               }
               key={i}
